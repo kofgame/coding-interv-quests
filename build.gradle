@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group = 'coding.interview'
+version = '1.0'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
