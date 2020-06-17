@@ -8,8 +8,8 @@ public class UniqueCharsDeterminer {
 
     public static void main(String[] args) {
         String testStr = "asdfghhgfdsazxcvbbvcxz";
-        System.out.println(containsDuplicates(testStr));
-        System.out.println(isUniqueChars2(testStr));
+        System.out.println("<-- containsDuplicates: " + containsDuplicates(testStr) + " -->");
+        System.out.println("<-- isUniqueChars2: " + isUniqueChars2(testStr) + " -->");
     }
 
     /**
